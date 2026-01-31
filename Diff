@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aroméa | Perfumes Árabes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#000; color:#fff; text-align:center; }
+    .container { padding:40px 20px; }
+    img { max-width:220px; margin-bottom:20px; }
+    h1 { font-weight:normal; letter-spacing:2px; margin-bottom:10px; }
+    p { opacity:0.8; margin-bottom:30px; }
+    a.button { display:block; margin:15px auto; padding:15px; max-width:300px; text-decoration:none; color:#000; background:gold; border-radius:30px; font-weight:bold; }
+    a.button.whatsapp { background:#25D366; color:#fff; }
+    footer { margin-top:40px; font-size:12px; opacity:0.5; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.jpg" alt="Aroméa">
+    <h1>AROMÉA</h1>
+    <p>Perfumes Árabes</p>
+
+    <!-- PONER AQUÍ EL NÚMERO REAL -->
+    <a class="button whatsapp" href="https://wa.me/549XXXXXXXXXX" target="_blank">
+      Contactar por WhatsApp
+    </a>
+
+    <!-- LINK AL PDF (archivo en el mismo repo) -->
+    <a class="button" href="catalogo.pdf" target="_blank">
+      Ver Catálogo
+    </a>
+
+    <footer>© Aroméa</footer>
+  </div>
+</body>
+</html>
